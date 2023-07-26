@@ -1,0 +1,230 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'SolaimanLipi', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.login_btn {
+    width: 100px;
+    padding: 3px;
+    font-weight: 700;
+    margin-top: -10px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    background-color: #fff;
+    color: #385EB2;
+    border: 1px solid #385EB2;
+
+}
+
+.login_btn:hover {
+    background-color: #385EB2;
+    color: #fff;
+}
+
+.en_btn {
+    width: 100px;
+    padding: 3px;
+    font-weight: 700;
+    margin-top: -10px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    background-color: #385EB2;
+    color: #fff;
+    border: 1px solid #385EB2;
+}
+
+.en_btn:hover {
+    background-color: #fff;
+    color: #385EB2;
+}
+
+
+
+
+
+
+
+
+
+/* .navbar-light .navbar-nav .nav-link:hover {
+    background-color: #113681 !important;
+} */
+
+
+
+/* .nav-link {
+    display: block;
+    text-decoration: none;
+    background: 0 0;
+    padding: 16px 0 16px 0;
+} */
+
+
+
+
+
+.marqueetag{
+    background-color: #4A6FB6;
+    color: #FFF;
+    font-size: 24.375px;
+    text-align: center;
+    width: 10%;
+}
+.marquee_tag{
+    border-top: 2px solid #4A6FB6;
+    border-right: 2px solid #4A6FB6;
+    border-bottom: 2px solid #4A6FB6;
+    height: 36.5px;
+    
+    width: 100%;
+   
+    padding: 4px;
+}
+.sideber_img{
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+.sideber_img:hover{
+    transform: scale(1.1);
+}
+.first_sideber{
+    margin-left: 0;
+}
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+    /* background-color: #000; */
+    display: none;
+}
+.classOneTitle{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 60px !important;
+    opacity: .6;   
+}
+.carousel-caption{
+   position: absolute;
+   top: 205px;
+   left: inherit;
+   right: inherit;
+}
+.carousel_img{
+    position: relative;
+}
+
+.lastestnews_title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.latestnews_para{
+    font-size: 16px;
+}
+.latestpopularside{
+    height: 60vh;
+    overflow: auto;
+    
+}
+.test{
+    background-color: #d9d9d9;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #113681;
+}
+.latest_news_first{
+    width: 200px;
+    font-size: 20px;
+}
+.latest_news_first:hover{
+    color: #fff;
+}
+.latest_news_first_p{
+    width: 200px;
+    font-size: 20px;
+    
+}
+.latest_news_first_p:hover{
+    color: #fff;
+}
+.nav-pills .nav-link {
+    border-radius: none;
+}
+
+
+
+.title_rajniti{
+    color: #3458A0;
+    text-align: center;
+    font-size: 30px;
+}
+.rajniti_title{
+    font-weight: 700;
+    font-size: 18.5px;
+}
+.rajniti_para{
+    font-size: 15px;
+}
+.title_economics{
+    margin-left: 45px;
+}
+
+
+.more_btn{
+    background-color: #4A6FB6;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 24.375px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.economics_para{
+    font-size: 16.5px;
+}
+.economics_title{
+    font-size: 20px;
+}
+.title_national{
+    margin-left: 120px;
+}
+
+.news_area{
+    color: #4A6FB6;
+    font-weight: 700;
+}
+@media screen and (max-width:767px) {
+    .date_time{
+        display: none;
+    }
+    .sironam{
+        display: none;
+    }
+    .classOneTitle{
+        margin-top: 74px !important;
+    }
+    .phone_ber{
+        width: 100%;
+    }
+    .phone_ber_right {
+        margin-left: 57px;
+        width: 100%;
+    }
+    .title_national{
+        margin-left:10px;
+    }
+    .phone_ber_right_2{
+        width: 100%;
+    }
+}

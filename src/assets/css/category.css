@@ -1,0 +1,90 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+body{
+    font-family: 'SolaimanLipi', sans-serif;
+}
+.title_div_class{
+    background-image: url('../images/category/bg_img.png');
+    width: 97%;
+    position: absolute;
+    top: 310px;
+}
+.title_class{
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+.big_img{
+    position: relative;
+}
+.rajniti_title{
+    color: #4A6FB6;
+    font-size: 36px;
+}
+.img_scale{
+    transition: all .2s ease;
+}
+.img_scale:hover{
+    scale: 1.1;
+}
+
+.list_cat_para{
+    font-size: 16px;
+}
+.list_cat_title{
+    font-size: 20px;
+}
+.more_btn{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (min-width:10px){
+    .title_div_class{
+        top:143px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:500px){
+    .title_div_class{
+        top:180px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:767px){
+    .title_div_class{
+        top:253px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .title_div_class{
+        top: 316px;
+        width: 88.5%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    .title_div_class{
+        top: 206px;
+       
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px){
+    .title_div_class{
+        top: 263px;
+       
+    }
+}
+
+@media screen and (min-width:1400px){
+    .title_div_class{
+        top: 310px;
+        width: 97%;
+    }
+}
